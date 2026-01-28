@@ -20,16 +20,6 @@ document.getElementById('education_link').addEventListener('click', function(eve
     scrollToPosition('education');
 });
 
-document.getElementById('achievements_link').addEventListener('click', function(event) {
-    event.preventDefault();
-    scrollToPosition('achievements');
-});
-
-document.getElementById('experiences_link').addEventListener('click', function(event) {
-    event.preventDefault();
-    scrollToPosition('experiences');
-});
-
 document.getElementById('skills_link').addEventListener('click', function(event) {
     event.preventDefault();
     scrollToPosition('skills');
